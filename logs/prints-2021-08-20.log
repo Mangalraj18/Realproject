@@ -1,0 +1,7 @@
+18:52:24.095 [main] INFO  commonfunctions.Commonfunction - file uploaded
+18:52:24.113 [main] INFO  commonfunctions.Commonfunction - URL uploaded
+18:52:26.312 [main] INFO  commonfunctions.Commonfunction - Browser uploaded
+18:52:41.770 [main] INFO  testcases.Pendingleave - Login success
+18:52:42.978 [main] INFO  testcases.Pendingleave - Dashboard selected
+18:52:42.980 [main] INFO  testcases.Pendingleave - Functions are equal
+18:52:43.046 [main] INFO  testcases.Admin_role - Admin link is clicked

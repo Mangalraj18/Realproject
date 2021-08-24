@@ -1,0 +1,8 @@
+18:52:43.046 [main] INFO  testcases.Admin_role - Management link is clicked
+18:52:43.049 [main] INFO  testcases.Admin_role - Users link is clicked
+18:52:45.435 [main] INFO  testcases.Admin_role - Now is in clicked
+18:52:45.534 [main] INFO  testcases.Admin_role - Username done
+18:52:45.725 [main] INFO  testcases.Admin_role - selected this value
+18:52:45.945 [main] INFO  testcases.Admin_role - selected this value
+18:52:46.681 [main] INFO  testcases.Admin_role - selected all done
+18:52:46.967 [main] INFO  commonfunctions.Commonfunction - All done bye
