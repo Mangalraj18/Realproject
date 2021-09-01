@@ -1,4 +1,5 @@
 package commonfunctions;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -7,13 +8,15 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.util.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-
 
 public class Commonfunction 
 {
@@ -65,4 +68,14 @@ public class Commonfunction
 		driver.quit();
 		log.info("All done bye");
 	}	
+	public void screenshot()
+	{
+		 File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		 try {
+			org.apache.commons.io.FileUtils.copyFile(src, new File(".//Screenshots//image.png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }

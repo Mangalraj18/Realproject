@@ -1,0 +1,8 @@
+21:43:20.856 [main] INFO  testcases.Pendingleave - Dashboard selected
+21:43:20.895 [main] INFO  testcases.Pendingleave - Functions are equal
+21:43:21.519 [main] INFO  testcases.Admin_role - Admin link is clicked
+21:43:21.520 [main] INFO  testcases.Admin_role - Management link is clicked
+21:43:21.520 [main] INFO  testcases.Admin_role - Users link is clicked
+21:43:23.791 [main] INFO  testcases.Admin_role - Now is in clicked
+21:43:23.891 [main] INFO  testcases.Admin_role - Username done
+21:43:24.190 [main] INFO  testcases.Admin_role - selected this value

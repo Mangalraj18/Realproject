@@ -48,5 +48,4 @@ public class Admin_role extends Commonfunction
 	   user_page_object.search.click();   
 	   log.info("selected all done");
 	}
-	
 }
